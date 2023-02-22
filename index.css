@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycGxhbmV8ZW58MHx8MHx8&w=1000&q=80');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.divwelcome{
+margin-top: 200px;
+
+}
+
+.divRegistration{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+.divSIngIn{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+.delete{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.Tochange{
+  margin-top: 5px;
+}
+
