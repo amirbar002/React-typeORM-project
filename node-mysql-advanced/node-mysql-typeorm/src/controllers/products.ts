@@ -26,7 +26,9 @@ export const findProducts = async (
 export const updateProduct = async (
   productId: number,
   data: Product
+  
 ): Promise<boolean> => {
+  console.log(data, 'data');
   const res = await Product.update(productId, data)
   return res.affected ? true : false
 }

@@ -14,7 +14,7 @@ export const AppDataSource = new DataSource({
   database: process.env.MYSQL_DB_NAME,
   synchronize: true,
   logging: false,
-  entities: [Person, Product,Followes],  //Order
+  entities: [Person, Product,Followes], 
   migrations: [],
   subscribers: [],
 })
